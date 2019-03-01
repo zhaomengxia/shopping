@@ -1,0 +1,23 @@
+/*=======================评价========================*/
+.rating{ background:url(images/star-matrix.gif) no-repeat; width:80px; height:16px; position:relative; float:left;}
+.onestar{ background-position:left -16px;}
+.twostar{ background-position:left -32px;}
+.threestar{ background-position:left -48px;}
+.fourstar{ background-position: left -64px;}
+.fivestar{ background-position:left -80px;}
+
+.rating li{ float:left; text-indent:-9999px;}
+.rating li a{ display:block; width:16px; height:16px; position:absolute; left:0; top:0; z-index:10;}
+.rating li.one a{ left:0px;}
+.rating li.two a{ left:16px;}
+.rating li.three a{ left:32px;}
+.rating li.four a{ left:48px;}
+.rating li.five a{ left:64px;}
+
+.rating li a:hover{ background:url(images/star-matrix.gif) no-repeat; width:80px; overflow:hidden; position:absolute; left:0; top:0; z-index:2;}
+.rating li.one a:hover{ background-position:left -96px;}
+.rating li.two a:hover{ background-position:left -112px;}
+.rating li.three a:hover{ background-position: left -128px;}
+.rating li.four a:hover{ background-position: left -144px;}
+.rating li.five a:hover{ background-position: left -160px;}
+span#text{ font-size:12px; color:#666; float:left; padding-left:20px;}

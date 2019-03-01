@@ -1,0 +1,10 @@
+﻿body, td, th, input, textarea, select, h1, h2, h3, h4 { font: 12px "微软雅黑" , Verdana, "宋体"; color: #000; }
+body, form, ul, ul li, dl, dt, dd, h1, h2, h3, h4, hr, p { margin: 0px; padding: 0px; }
+article, aside, dialog, footer, header, section, nav, figure, menu { display: block; }
+ul, ul li { list-style: none; }
+ol { margin: 0px; padding: 0px 0px 0px 20px; }
+th, h1, h2, h3, h4, legend { font-weight: bold; }
+body { background: #FFF; }
+p { text-indent: 2em; margin-bottom: 10px; }
+a, a:hover { text-decoration: none; }
+a img { border-style: none; }
